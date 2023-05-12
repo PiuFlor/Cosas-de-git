@@ -9,7 +9,7 @@ w -> git config --global core.autocrlf true
 l -> git config --global core.autocrlf input
 
 ---
-comando comunes -> ls, pwd, cd "dir/car", cd .., ls -a 
+comando comunes -> ls, pwd, cd "dir/car", cd .., ls -a, mv "arc" "arcnom2"
 
 crear directorio -> mkdir "nombreDir"
 crear repositoria en git -> git init
@@ -26,4 +26,13 @@ Añadir -> git add "nombre"
 Pasar a la etapa STAGE
 git commit -m "mesaje con sentido"
 
-Commit alternativo
+Eliminar ->git rm "nombre"
+cambiar nombre -> git mv "nameOld" "nameNow"
+
+Si quiero volver para atras algun add
+git restore --stage "nombre archivo"
+
+ignorar un archivo especifico
+crear un archivo llamado ".gitignore" y dentro del documeto el  nombre.* de los archivos q queres ignorar, si son carpetas termina con "nombre/"
+git add .gitignore
+git commit -m "msj"
