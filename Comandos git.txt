@@ -14,6 +14,8 @@ comando comunes -> ls, pwd, cd "dir/car", cd .., ls -a, mv "arc" "arcnom2"
 crear directorio -> mkdir "nombreDir"
 crear repositoria en git -> git init
 
+
+----------Commit
 Etapas
 	- Computador (propio)
 	- Stage (Seleccionar que archivos), etapa intermedia antes de ir al repo
@@ -36,3 +38,20 @@ ignorar un archivo especifico
 crear un archivo llamado ".gitignore" y dentro del documeto el  nombre.* de los archivos q queres ignorar, si son carpetas termina con "nombre/"
 git add .gitignore
 git commit -m "msj"
+
+Muestra los cambios dentro del arc -> git diff
+
+datos de los commit existentes-> git log --oneline
+
+
+---------Ramas o branch
+en q rama estoy -> git branch 
+crear una rama -> git checkout -b nombre de la rama
+cambiar de rama -> gut checkout rama
+mostrar q tiene un arch -> cat "nombreARC"
+EN LA RAMA MAIN
+combinar rama -> git merge ramab 
+
+--------subir al servidor de git
+git remote add origin https://github.com/PiuFlorencia/Cosas-de-git.git
+git push -u origin main
