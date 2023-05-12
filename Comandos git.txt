@@ -25,3 +25,5 @@ Añadir -> git add "nombre"
 
 Pasar a la etapa STAGE
 git commit -m "mesaje con sentido"
+
+Commit alternativo
