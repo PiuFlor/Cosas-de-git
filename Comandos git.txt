@@ -55,3 +55,8 @@ combinar rama -> git merge ramab
 --------subir al servidor de git
 git remote add origin https://github.com/PiuFlorencia/Cosas-de-git.git
 git push -u origin main
+
+git clone "dir"
+git pull "nombre dire"
+
+cositas: https://app.aluracursos.com/forum/topico-sugerencia-lista-de-comandos-basicos-de-git-148965?gclid=Cj0KCQjwpPKiBhDvARIsACn-gzAxmEr1uDYquya4TamJTbni73VARyfXJntC4XNM9inGRtIrrflBVe4aAmJFEALw_wcB
