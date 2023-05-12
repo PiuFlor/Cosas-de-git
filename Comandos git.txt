@@ -1,0 +1,27 @@
+----Configuracion 
+git --version
+git config --global user.name "Nombre"
+git config --global user.email  flor.piuu@gmail.com
+git config --global core.editor "core --wait"
+git config --global -e
+
+w -> git config --global core.autocrlf true
+l -> git config --global core.autocrlf input
+
+---
+comando comunes -> ls, pwd, cd "dir/car", cd .., ls -a 
+
+crear directorio -> mkdir "nombreDir"
+crear repositoria en git -> git init
+
+Etapas
+	- Computador (propio)
+	- Stage (Seleccionar que archivos), etapa intermedia antes de ir al repo
+	- Commit, pasan a la sig etapa 
+	- Server, Pasan al servidor dentro de la nube
+
+Estado (cuando creas o cambias arc)-> git status
+Añadir -> git add "nombre"
+
+Pasar a la etapa STAGE
+git commit -m "mesaje con sentido"
